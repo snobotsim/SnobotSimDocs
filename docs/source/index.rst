@@ -12,7 +12,7 @@ Welcome to SnobotSim's documentation!
 
    simulator/basic-setup
    simulator/custom-simulators
-   simulator/release_notes
+   simulator/release-notes
 
 
 
