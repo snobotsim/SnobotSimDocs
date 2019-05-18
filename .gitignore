@@ -1,4 +1,6 @@
 build/
+docs/source/_build/
 
 # IDE's
 .project
+.vscode

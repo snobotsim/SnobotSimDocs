@@ -7,8 +7,12 @@ Welcome to SnobotSim's documentation!
 =====================================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 1
+   :caption: Simulator
+
+   simulator/basic-setup
+   simulator/custom-simulators
+   simulator/release_notes
 
 
 
