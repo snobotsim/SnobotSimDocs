@@ -35,7 +35,7 @@ a custom display name for the component. Here is an example of the dialog that a
 |image_edit_solenoid|
 
 There are several options for how you can configure the connected motor settings for a 
-speed controller, outlined __here__
+speed controller, outlined :ref:`motor-sim-models`
 
 |image_edit_speed_controller|
 

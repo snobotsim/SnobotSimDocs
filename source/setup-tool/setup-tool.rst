@@ -1,5 +1,5 @@
-SnobotSim Setup Tool
-====================
+Standalone Setup Tool
+=====================
 
 Note: This tool is in development and may not work as expected
 
@@ -8,8 +8,9 @@ It will add the neccessary configuration items into your ``build.gradle`` file,
 install the necessary config files that the simulator uses to get you up and
 running as easily as possible.
 
-This is a standalone version of the VS Code plugin outlined in ___this__ portion
-of the documentation.
+This is a standalone version of the VS Code plugin outlined in :ref:`vs-code-extension` portion
+of the documentation. If your team uses VS Code, it might be better to use the extension rather
+than the standalone tool
 
 Downloading the tool
 ....................

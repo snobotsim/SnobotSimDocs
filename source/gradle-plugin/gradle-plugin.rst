@@ -1,13 +1,13 @@
-SnobotSimPlugin
+Gradle Plugin
 ===============
 
 The SnobotSimPlugin is a gradle plugin designed to make the simulator easier to use. It
 provides a easy to use mechanism to pull in all of the dependencies, and provide tasks
 to start the simulator from the command line.
 
-Manual Installation Notes:
+Manual Installation Notes
 ..........................
-Note: You can use the installation tool outlined in ________LINK___________ to avoid doing the manual installation
+Note: You can use the installation tool outlined in :ref:`vs-code-extension` to avoid doing the manual installation
 
 To add the plugin to your robot project, update the plugin block of your ``build.gradle`` file like so
 
@@ -61,5 +61,39 @@ simulator GUI open on your computer
 Notes:
 
 * Windows users don't need to put the ``./`` in front of gradlew, only Linux users do
-* C++ teams should use ``./gradlew runCppSnobotSim``. For more specific C++ notes and exceptions, see ___MAKE LINK____
+* C++ teams should use ``./gradlew runCppSnobotSim``. For more specific C++ notes and exceptions, see :ref:`cpp-guide`
 
+.. include:: release-notes.rst
+
+
+Release Notes
+...............
+
+
+Current Release
+^^^^^^^^^^^^^^^
+
+
+`2019-2.0.0 <https://github.com/snobotsim/SnobotSimPlugin/releases/tag/2019-2.0.0>`_
+####################################################################################
+
+* Added ability to simulator REV SparkMax motor controllers
+
+
+Previous Releases
+^^^^^^^^^^^^^^^^^
+
+`2019-1.0.0 <https://github.com/snobotsim/SnobotSimPlugin/releases/tag/2019-1.0.0>`_
+####################################################################################
+
+* Updates to make the build script easier to set up and use
+
+`2019-0.2.0 <https://github.com/snobotsim/SnobotSimPlugin/releases/tag/2019-0.2.0>`_
+####################################################################################
+
+* Updates required for the 2019.1.1 WPLib release
+
+`2019-0.0.0 <https://github.com/snobotsim/SnobotSimPlugin/releases/tag/v2019-0.0.0>`_
+#####################################################################################
+
+* Initial beta release for the 2019 season

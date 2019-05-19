@@ -1,3 +1,5 @@
+.. _vs-code-extension:
+
 VS Code Extension
 =================
 
