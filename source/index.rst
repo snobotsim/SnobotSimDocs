@@ -7,6 +7,7 @@ Welcome to SnobotSim's documentation!
 =====================================
 
 SnobotSim is simulator for Java and C++ FRC Robots for the FIRST Robotics Competition.
+
 Please report any simulator related issues to the `main project <https://github.com/pjreiniger/SnobotSim/issues>`_
 
 .. toctree::
@@ -14,9 +15,9 @@ Please report any simulator related issues to the `main project <https://github.
    :caption: Getting Started
 
    getting-started/getting-started
-   vs-code/vs-code
-   setup-tool/setup-tool
-   gradle-plugin/gradle-plugin
+   getting-started/vs-code
+   getting-started/setup-tool
+   getting-started/gradle-plugin
 
 .. toctree::
    :maxdepth: 1
