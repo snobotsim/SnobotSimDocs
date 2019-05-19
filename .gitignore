@@ -1,6 +1,8 @@
 build/
-docs/source/_build/
+source/_build/
+source/yeti.xcf
 
 # IDE's
 .project
+.pydevproject
 .vscode
