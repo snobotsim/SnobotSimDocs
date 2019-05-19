@@ -7,7 +7,26 @@ Welcome to SnobotSim's documentation!
 =====================================
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
+   :caption: VS Code
+
+   vs-code/vs-code
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: Standalone Setup
+
+   setup-tool/setup-tool
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: Gradle Plugin
+
+   gradle-plugin/gradle-plugin
+   gradle-plugin/release-notes
+
+.. toctree::
+   :maxdepth: 2
    :caption: Simulator
 
    simulator/basic-setup

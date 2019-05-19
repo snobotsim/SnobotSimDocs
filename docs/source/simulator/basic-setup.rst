@@ -1,3 +1,5 @@
+.. _basic-setup:
+
 Configurating the Simulator
 ===========================
 
