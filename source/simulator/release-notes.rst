@@ -5,6 +5,22 @@ Release Notes
 Current Release
 ^^^^^^^^^^^^^^^
 
+`2020-0.0.1 <https://github.com/snobotsim/SnobotSim/releases/tag/2020-0.0.1>`_
+...............................................................................
+Kickoff release
+
+* Added super quick and dirty simulator for the Spark Max. Basically just does voltage percentage simulation, but they will now show up on the GUI. Also supports follow mode, and following a TalonSRX
+* Requires `2020-0.0.0 Plugin <https://github.com/snobotsim/SnobotSimPlugin/releases/tag/2020-0.0.0>`_ to use downstream
+
+ Known Issues
+  * No C++ simulations
+  * Standard warning about potentially wrong / missing features in CTRE simulation
+  * REV completely changed their API. Most of the "common" features should be supported, but your mileage may vary
+
+
+Previous Releases
+^^^^^^^^^^^^^^^^^
+
 `2019-1.0.0 <https://github.com/pjreiniger/SnobotSim/releases/tag/2019-1.0.0>`_
 ...............................................................................
 
@@ -18,9 +34,6 @@ Added simulation for REV CANSparkMax
   * CTRE simulation is hot off the presses. Unit tests work, but new features and functions are probably not supported.
   * No smart features of the REV speed controller are supported.
 
-
-Previous Releases
-^^^^^^^^^^^^^^^^^
 `2019-0.0.1 <https://github.com/pjreiniger/SnobotSim/releases/tag/v2019-0.0.1>`_
 .................................................................................
 

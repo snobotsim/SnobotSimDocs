@@ -16,8 +16,8 @@ To add the plugin to your robot project, update the plugin block of your ``build
 
    plugins {
       id "java"
-      id "edu.wpi.first.GradleRIO" version "2019.4.1"
-      id "com.snobot.simulator.plugin.SnobotSimulatorPlugin" version "2019-3.0.0" apply false
+      id "edu.wpi.first.GradleRIO" version "2020.1.2"
+      id "com.snobot.simulator.plugin.SnobotSimulatorPlugin" version "2020-0.0.0" apply false
    }
 
 Notice the ``apply false`` line maker. This means that we are not activating the plugin yet,
@@ -71,15 +71,21 @@ Release Notes
 Current Release
 ^^^^^^^^^^^^^^^
 
+`2020-0.0.0 <https://github.com/snobotsim/SnobotSimPlugin/releases/tag/2020-0.0.0>`_
+####################################################################################
+
+* 2020 Kickoff Release
+* Includes a new task, `updateSnobotSimConfig`, which will download the latest SnobotSim config file
+
+
+
+Previous Releases
+^^^^^^^^^^^^^^^^^
 
 `2019-2.0.0 <https://github.com/snobotsim/SnobotSimPlugin/releases/tag/2019-2.0.0>`_
 ####################################################################################
 
 * Added ability to simulator REV SparkMax motor controllers
-
-
-Previous Releases
-^^^^^^^^^^^^^^^^^
 
 `2019-1.0.0 <https://github.com/snobotsim/SnobotSimPlugin/releases/tag/2019-1.0.0>`_
 ####################################################################################
