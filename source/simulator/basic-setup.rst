@@ -21,7 +21,7 @@ The first time that you run the simulator with the example robot, you should see
 |image_initial_setup|
 
 You can now change your robots state into autonomous or disabled modes, see the elased "Match Time", 
-and configure the componenets settings.
+and configure the components settings.
 
 If you select the "Change Settings" button, you will be open to changing the settings 
 for all of the loaded components. Simply click on the gear next to the component to see
@@ -63,8 +63,10 @@ sort of device you have connected when you create an I2C or SPI device, so it mu
 set up manually. Note, in almost all cases this information must be known on startup,
 so after setting up the simulator you must save your changes and restart the simulator.
 
-To configure a I2C or SPI device, click on the ____button___
-___insert image_____
+To configure a I2C or SPI device, click on the `SPI & I2C` button
+|image_spi_i2c_button|
+
+|image_spi_i2c_settings|
 
 Currently the simulator nativly supports the following devices:
 
@@ -75,7 +77,7 @@ Currently the simulator nativly supports the following devices:
 
 You must find the port you need, and set the appropriate simulator. Note: You are probably setting
 up the device with WPILibs enumerations, but if you hover over the constant, IntelliSense will tell
-you what internal ID it represents. For example, SPI.kMXP is port ____port____
+you what internal ID it represents. For example, SPI.kMXP is port 4
 
 If you have a custom SPI/I2C device or are using something the simulator doesn't currently support,
 you can add your own simulator. This will be discussed later in the documentation
@@ -88,7 +90,7 @@ SnobotSim provides a very simplistic tank drive simulator, assuming that you are
 an independant skid steer robot, with a gyro measuring yaw feedback. Note: the current implementation
 has very little science behind it, and is mostly used for very rough testing purposes.
 
-__insert image___
+|image_tank_drive|
 
 .. |image_initial_setup| image:: images/InitialStartup.png
 .. |image_edit_mode| image:: images/EnterEditingMode.png
@@ -96,3 +98,6 @@ __insert image___
 .. |image_edit_speed_controller| image:: images/EditSpeedControllerSettings.png
 .. |image_edit_encoder| image:: images/EditEncoderSettings.png
 .. |image_completed_setup| image:: images/SimulatorPostSetup.png
+.. |image_tank_drive| image:: images/TankDriveSimulator.png
+.. |image_spi_i2c_button| image:: images/SpiI2CButton.png
+.. |image_spi_i2c_settings| image:: images/SpiI2CSettings.png

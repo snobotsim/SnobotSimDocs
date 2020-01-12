@@ -63,8 +63,6 @@ Notes:
 * Windows users don't need to put the ``./`` in front of gradlew, only Linux users do
 * C++ teams should use ``./gradlew runCppSnobotSim``. For more specific C++ notes and exceptions, see :ref:`cpp-guide`
 
-.. include:: release-notes.rst
-
 
 Release Notes
 ...............

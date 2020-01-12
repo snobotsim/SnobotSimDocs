@@ -18,7 +18,7 @@ The releases of the extension are stored on the `projects Github page <https://g
 To install:
 
 1. Open VS Code
-2. Select and download the ___PACKAGE NAME____ bundle
+2. Select and download the vscode-RE.LEA.SE.vsix bundle
 3. In VS Code, press CTRL+SHIFT+P to open the command pallete, and type "Install From VSIX"
 4. Select Extensions: Install from VSIX...
 5. Navigate to where you downloaded the SnobotSim VSIX package, and select it
