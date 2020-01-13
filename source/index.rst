@@ -6,7 +6,7 @@
 Welcome to SnobotSim's documentation!
 =====================================
 
-SnobotSim is simulator for Java and C++ FRC Robots for the FIRST Robotics Competition.
+SnobotSim is a simulator for FIRST Robotics Competition (FRC) Robots that use Java.
 
 Please report any simulator related issues to the `main project <https://github.com/pjreiniger/SnobotSim/issues>`_
 
